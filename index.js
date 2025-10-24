@@ -1,3 +1,7 @@
-const namaSaya = "Septian Adi Pratama";
+// const namaSaya = "Septian Adi Pratama";
 
-console.log(namaSaya);
+// console.log(namaSaya);
+
+
+const http = require('http');
+console.log(http)
