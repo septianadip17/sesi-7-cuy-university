@@ -6,7 +6,8 @@ const port = 3002;
 // response = data keluar dari sistem
 
 const server = http.createServer(function (request, response) {
-  response.end("Hello World!");
+  response.statusCode = 203;
+  response.end("ini adalah respon dengan status code 203!");
 });
 
 server.listen(port, host, function () {
