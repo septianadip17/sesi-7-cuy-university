@@ -10,5 +10,5 @@ const server = http.createServer(function (request, response) {
 });
 
 server.listen(port, host, function () {
-  console.log(`Server berjalan pada http://${host}:${port}`);
+  console.log(`Server berjalan pada http://${host}:${port} `);
 });
